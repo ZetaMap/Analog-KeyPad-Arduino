@@ -1,10 +1,10 @@
 /*
-  This small library is for analog keypad.
-  It is so small that you can include its only file in your sketch folder.
+  The most complete library for analog Keypad.
+  Can accept up to 25 keys, but you can change the value in the library at line 12.
 */
 
-#ifndef _ANALOG_KEYPAD_H_
-#define _ANALOG_KEYPAD_H_
+#ifndef _ANALOGKEYPAD_H_
+#define _ANALOGKEYPAD_H_
 
 #include "Arduino.h"
 
@@ -187,4 +187,4 @@ class AnalogKeypad {
             _i;
 };
 
-#endif // _ANALOG_KEYPAD_H_
+#endif // _ANALOGKEYPAD_H_
